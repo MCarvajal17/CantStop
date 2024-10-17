@@ -3,7 +3,7 @@
 
 using namespace std;
 
-class celda{
+class celda{ 
     
    public:
    
@@ -72,3 +72,4 @@ int main(){
     return 0;
 }
 
+//ejemplo
