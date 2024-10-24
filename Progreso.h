@@ -2,13 +2,13 @@
 #ifndef PROGRESO_H
 #define PROGRESO_H
 
-class RastreadorMovimientos {
+class Progreso {
 private:
     int progresoPermanente;  // Progreso permanente del jugador
     int progresoTemporal;    // Progreso temporal del jugador
 
 public:
-    RastreadorMovimientos();  // Constructor
+    Progreso();  // Constructor
 
     // Avanzar temporalmente en una columna
     void avanzar();
